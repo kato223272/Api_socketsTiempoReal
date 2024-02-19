@@ -1,0 +1,21 @@
+###
+POST http://localhost:3000/repartidor/crearRepartidor HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre":"Paolis",
+    "direccion":"Paolis"
+}
+
+
+##
+GET http://localhost:3000/repartidor/conseguirRepartidor HTTP/1.1
+
+###
+GET http://localhost:3000/repartidor/ObtenerRepartidorNuevo HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre":"Paolis",
+    "direccion":"Paolis"
+}
