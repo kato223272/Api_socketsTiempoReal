@@ -9,9 +9,7 @@ const Venta = require('./routes/Venta.routes.js');
 
 const app = express();
 dotenv.config();
-app.use(cors({
-    origin:"*"
-}));
+
 app.use(cors());
 
 // Middleware
